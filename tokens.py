@@ -2,7 +2,9 @@ import spacy
 
 nlp=spacy.blank("en")
 
-doc=nlp("My name is rajvi and I am in google working as SWE and i am so passionate about what i am doing hureyy")
+corpus=nlp("My name is rajvi dave")
 
-for tokens in doc:
+for tokens in corpus:
     print(tokens)
+
+#okay done
